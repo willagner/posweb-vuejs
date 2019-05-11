@@ -5,6 +5,7 @@ import blog from '@/components/blog'
 import services from '@/components/services'
 import contact from '@/components/contact'
 import details from '@/components/details'
+import loja from '@/components/loja'
 
 Vue.use(Router)
 
@@ -12,8 +13,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: home
+      name: 'loja',
+      component: loja
     },
     {
       path: '/home',
